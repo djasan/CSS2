@@ -25,6 +25,7 @@ h2 {
     text-align: center;
     padding-top: 30px;
     font-size: 2em;
+    text-shadow: 1px 3px 2px antiquewhite;
 
 
 
@@ -35,6 +36,7 @@ h3 {
     text-align: center;
     padding-top: 30px;
     font-size: 1.5em;
+    text-shadow: 1px 3px 2px antiquewhite;
 }
 
 h4 {
@@ -42,6 +44,7 @@ h4 {
     text-align: center;
     padding-top: 30px;
     font-size: 1em;
+    text-shadow: 1px 3px 2px antiquewhite;
 }
 
 a {
@@ -65,6 +68,7 @@ header li {
 
     float: right;
     font-size: 1.2em;
+    text-shadow: 1px 3px 2px hsl(0, 33%, 10%);
 }
 
 header li a {
@@ -79,18 +83,22 @@ header li a {
     font-weight: 300;
     float: left;
     font-size: 3em;
-   
+    text-shadow: 1px 3px 2px #c92424;
+
 }
-#logo a{
+
+#logo a {
     color: black;
 }
 
 
 
-#logo span{
+#logo span {
     color: #920925;
-    background-color: black;
+    background-color: hsla(0, 63%, 17%, 0.418);
+    text-shadow: 1px 3px 2px black;
 }
+
 /* *********************image principale***************** */
 
 #image-principale {
@@ -101,22 +109,135 @@ header li a {
     height: 799px;
 }
 
-h1{
-    font-family:"Abyssinicaserif";
+h1 {
+    font-family: "Abyssinicaserif";
     text-align: center;
     color: antiquewhite;
     font-size: 4em;
-    margin-top:110px ;
+    margin-top: 110px;
+    font-weight: 300;
+    text-shadow: 1px 3px 2px black;
+}
+
+#premiertrait {
+    height: 1px;
+    width: 90%;
+    margin: -3px auto;
+    background-color: hsl(0, 19%, 93%);
+    box-shadow: 1px 3px 2px #161513;
+
+}
+
+/* **************************presentation******************** */
+
+#presentation {
+    background-color: #920925;
+    padding: 10px 0px 100px 0;
+
+}
+
+#texteintro {
+    padding: 0px 20%;
+
+}
+
+#prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+
+
+}
+
+.imagesprestations h2 {
+    font-family: "Abyssinicaserif";
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
     font-weight: 300;
 }
 
-#premiertrait{
-height: 1px;
-width: 90%;
-margin: -3px auto;
-background-color: hsl(0, 19%, 93%);
+.imagesprestations img {
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px #161513;
 
 }
-h3{
+
+.imagesprestations img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.8s ease-in-out;
+}
+
+/* *********************seconde partie*********************** */
+
+
+#descriptions {
+    height: 1400px;
+    background-color: teal;
+    padding: 1px 2%;
+
+}
+
+#descriptions h3 {
+  
+
+}
+
+/* intégration des images avec leur id */
+#elegance {
+   
+    background: url(./ppdjs13.png) ;
+ 
+
+}
+
+#archtecturale {
+ 
+    background: url(./ppdjs15.png) ;
+    border-radius: 12px;
     
+
+}
+
+
+#descriptions li {
+    margin: 65px 100px 0 100px;
+    height:225px;
+    width:55%;
+    min-width: 550px;
+
+    float: left;
+    box-shadow: 6px 6px 28px -1px black;
+    border-radius: 10px;
+}
+
+#descriptions p {
+    background-color: teal;
+    height: 45px;
+    width: 235px;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 5px 0 1px rgb(4, 46, 46)
+}
+
+#descriptions img{
+border-radius: 12px;
+display: flex;
+justify-content: center;
+
+}
+
+
+
+
+
+
+footer {
+    background-color: rgb(78, 67, 67);
 }
